@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: f639872383df9634cbfad0aa80395bb3
+guid: 045526974752b564fbf095efcf9fd19e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1750504931422568291
-    second: pumpkinhead_0
+      213: -772563017128756412
+    second: ponki-run_0
+  - first:
+      213: -3353503097552143325
+    second: ponki-run_1
+  - first:
+      213: -346715280111730278
+    second: ponki-run_2
+  - first:
+      213: 564179864704478443
+    second: ponki-run_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pumpkinhead_0
+      name: ponki-run_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 1
-        width: 15
-        height: 24
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 36ff207e5fa0b4810800000000000000
-      internalID: 1750504931422568291
+      spriteID: 44bbf65770e4745f0800000000000000
+      internalID: -772563017128756412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponki-run_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c7b3d43b6f571d0800000000000000
+      internalID: -3353503097552143325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponki-run_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a918dba2a48303bf0800000000000000
+      internalID: -346715280111730278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponki-run_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec6329099e54d700800000000000000
+      internalID: 564179864704478443
       vertices: []
       indices: 
       edges: []
@@ -138,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1b6c042382a52eb438456a3fcf5b0746
     internalID: 0
     vertices: []
     indices: 
@@ -146,9 +221,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":32.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      pumpkinhead_0: 1750504931422568291
+      ponki-run_0: -772563017128756412
+      ponki-run_1: -3353503097552143325
+      ponki-run_2: -346715280111730278
+      ponki-run_3: 564179864704478443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
