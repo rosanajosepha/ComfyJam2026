@@ -6,10 +6,10 @@ public class PlayerMovement : MonoBehaviour
     // variables
     public Rigidbody2D rb;
     public float moveSpeed;
-    public float speedX, speedY;
     private Vector2 _moveDirection;
     public InputActionReference move;
     private bool facingLeft = true;
+    public Animator animator;
     void Update()
     {
         _moveDirection = move.action.ReadValue<Vector2>();
@@ -20,6 +20,8 @@ public class PlayerMovement : MonoBehaviour
             FlipSprite();
         }
 
+        // pass numeric speed value to trigger run animation
+        animator.SetFloat("Speed", Mathf.Abs(_moveDirection.x));
 
     }
 
